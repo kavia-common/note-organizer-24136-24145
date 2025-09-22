@@ -1,0 +1,5 @@
+root = true
+
+[*.{csproj,sln}]
+# Guidance for tooling: prefer building root solution
+dotnet_build_default_solution = note-organizer.sln

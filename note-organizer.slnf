@@ -1,0 +1,8 @@
+{
+  "solution": {
+    "path": "note-organizer.sln",
+    "projects": [
+      "notes_backend/dotnet.csproj"
+    ]
+  }
+}

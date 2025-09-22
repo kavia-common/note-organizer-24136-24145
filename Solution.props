@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Tools looking for default solution may read this pattern -->
+    <DefaultProjectOrSolution>note-organizer.sln</DefaultProjectOrSolution>
+  </PropertyGroup>
+</Project>

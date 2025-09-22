@@ -1,0 +1,7 @@
+<Project>
+  <!-- Ensure bare `dotnet build`/`msbuild` from repo root uses our root solution/project to avoid MSB1011 -->
+  <PropertyGroup>
+    <!-- Prefer the root solution; some tools respect this when searching default project -->
+    <DefaultProject>note-organizer.sln</DefaultProject>
+  </PropertyGroup>
+</Project>

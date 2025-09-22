@@ -1,0 +1,3 @@
+# Default arguments for MSBuild when invoked without explicit project/solution.
+# Point to the root solution to avoid MSB1011 in CI/linter steps.
+note-organizer.sln

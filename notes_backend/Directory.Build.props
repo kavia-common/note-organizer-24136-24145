@@ -1,0 +1,8 @@
+<Project>
+  <!-- Ensure that bare 'dotnet build' or MSBuild invocations in CI pick the intended project
+       when multiple projects/solutions are present in the same directory. -->
+  <PropertyGroup>
+    <!-- Default project path to use when no project/solution is specified -->
+    <DefaultProject>dotnet.csproj</DefaultProject>
+  </PropertyGroup>
+</Project>
