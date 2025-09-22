@@ -1,0 +1,4 @@
+{
+    "command": "dotnet run --urls \"http://<host>:<port>\"",
+    "working_directory": "/home/kavia/workspace/code-generation/note-organizer-24136-24145/notes_backend"
+}
